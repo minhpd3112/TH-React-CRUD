@@ -1,7 +1,6 @@
 # Quick start
 
 ```bash
-git clone https://github.com/<your-org-or-user>/TH-React-CRUD.git
 cd TH-React-CRUD/react-crud-app
 npm install
 npm run dev
