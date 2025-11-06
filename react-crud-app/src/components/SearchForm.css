@@ -1,0 +1,25 @@
+.search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.search-label {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.search-form input {
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #cbd5f5;
+  background: #fff;
+  font-size: 0.95rem;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-form input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}

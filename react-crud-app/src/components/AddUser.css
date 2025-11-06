@@ -1,0 +1,49 @@
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px 18px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-control label {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.form-control input {
+  padding: 9px 12px;
+  border-radius: 6px;
+  border: 1px solid #cbd5f5;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-control input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+.required {
+  color: #ef4444;
+}
+
+.error {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #dc2626;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.address-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 8px;
+}
