@@ -1,7 +1,7 @@
 # Quick start
 
 ```bash
-cd TH-React-CRUD/react-crud-app
+cd react-crud-app
 npm install
 npm run dev
 ```
